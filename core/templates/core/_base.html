@@ -1,0 +1,16 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="{% static 'core/style.css' %}">
+    <!-- START OF HEAD -->{% block head %}
+    <title>Base Template<title>
+{% endblock %}    <!-- END OF HEAD --->
+</head>
+<body>
+    <!-- START OF BODY -->{% block body %}
+    <h1>Base Template</h1>
+{% endblock %}    <!-- END OF BODY --->
+</body>
+</html>
